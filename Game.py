@@ -24,7 +24,6 @@ def game_loop(lives):
         elif user_guess == random_number:
             print(f"You got it! The answer was {user_guess}")
             break
-    print("You've run out of guesses, you lose.")    
 if input("Choose a difficulty. Type 'easy' or 'hard': ") == "easy":
     lives = 10
     game_loop(lives)
